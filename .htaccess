@@ -1,1 +1,5 @@
  RewriteRule ^$ views/home/index.html [L]
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=60, public"
+</filesMatch>
