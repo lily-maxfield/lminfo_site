@@ -1,4 +1,9 @@
-﻿.flex-container {
+﻿@font-face {
+    font-family: "inter";
+    src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
+}
+
+.flex-container {
     display: flex;
     background-color: DodgerBlue;
 }
