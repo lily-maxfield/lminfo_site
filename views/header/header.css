@@ -17,16 +17,20 @@
 
 .navlinks {
     color: gray;
+    text-decoration-line: none;
+    font-size: 1.5em;
     font-family: "inter";
 }
 
 .socials {
-    color: gray;
-    font-family: "inter";
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
 }
 
 .site-logo {
     color: gray;
     text-decoration-line: none;
+    font-size: 1.8em;
     font-family: "inter";
 }
