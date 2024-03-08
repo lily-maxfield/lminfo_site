@@ -3,6 +3,11 @@
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "logo";
+    src: url("../fonts/inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
+}
+
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
@@ -11,14 +16,13 @@
 .flex-container > div {
     background-color: #f1f1f1;
     margin: 10px;
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
 }
 
 .navlinks {
     color: gray;
     text-decoration-line: none;
-    font-size: 1.5em;
+    font-size: 1.0em;
     font-family: "inter";
 }
 
@@ -31,6 +35,9 @@
 .site-logo {
     color: gray;
     text-decoration-line: none;
-    font-size: 1.8em;
-    font-family: "inter";
+    font-size: 1.2em;
+    font-family: "logo";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
