@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\components",
+    "\\models",
+    "\\views",
+    "\\views\\home"
   ],
-  "SelectedNode": "\\assets",
+  "SelectedNode": "\\components\\jquery-3.7.1.slim.min.js",
   "PreviewInSolutionExplorer": false
 }
