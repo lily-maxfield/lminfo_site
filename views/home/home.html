@@ -3,6 +3,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="assets/css/lminfo_styles.css">
+
     <title>Lily Maxfield - MES Engineer</title>
     <meta name="description" content="Personal Portfolio, CV and Contact Details." />
     <meta property="og:locale" content="en_US" />
@@ -20,6 +23,7 @@
         $(function () {
             $.ajax({
                 type: "GET",
+                async: false,
                 url: "views/header/header.html",
                 dataType: "html",
                 success: function (answer) {
@@ -34,6 +38,7 @@
         $(function () {
             $.ajax({
                 type: "GET",
+                async: false,
                 url: "views/footer/footer.html",
                 dataType: "html",
                 success: function (answer) {
@@ -48,7 +53,7 @@
     </script>
 </head>
 <body>
-    <h1>
+    <h1 class="lminfo-h1">
         Hi, I'm Lily!
     </h1>
     <p>
