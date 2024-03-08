@@ -15,8 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="components/jquery-3.7.1.slim.min.js"></script>
-</head>
-<body>
+
     <script>
         $(function () {
             $.ajax({
@@ -24,7 +23,7 @@
                 url: "views/header/header.html",
                 dataType: "html",
                 success: function (answer) {
-                    $("body").append(answer);
+                    $("body").prepend(answer);
                 },
                 error: function () {
                     alert("failed call!!!");
@@ -32,20 +31,6 @@
             });
             return false;
         });
-    </script>
-    <h1>
-        Hi, I'm Lily!
-    </h1>
-    <p>
-        Software Engineer and Certified LabVIEW Developer
-    </p>
-    <h2>
-        Who am I?
-    </h2>
-    <p>
-        Great to meet you! I&#8217;m a software engineer based in <strong>Sheffield UK</strong>, with experience in <strong>bespoke software production</strong> for multiple sectors.<br>I have a first class honours degree in electronic engineering and I&#8217;m currently working as an <strong>MES engineer</strong> for a large industrial application.
-    </p>
-    <script>
         $(function () {
             $.ajax({
                 type: "GET",
@@ -61,5 +46,19 @@
             return false;
         });
     </script>
+</head>
+<body>
+    <h1>
+        Hi, I'm Lily!
+    </h1>
+    <p>
+        Software Engineer and Certified LabVIEW Developer
+    </p>
+    <h2>
+        Who am I?
+    </h2>
+    <p>
+        Great to meet you! I&#8217;m a software engineer based in <strong>Sheffield UK</strong>, with experience in <strong>bespoke software production</strong> for multiple sectors.<br>I have a first class honours degree in electronic engineering and I&#8217;m currently working as an <strong>MES engineer</strong> for a large industrial application.
+    </p>
 </body>
 </html>
