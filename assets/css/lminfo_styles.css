@@ -1,10 +1,15 @@
-﻿.site-logo {
+﻿@font-face {
+    font-family: inter;
+    src: "assets/fonts/inter/static/Inter-Regular.ttf"
+}
+
+.site-logo {
     color: gray;
     text-decoration-line: none;
-    font-family: Arial;
+    font-family: inter, Arial;
 }
 
 .lminfo-h1 {
     color: gray;
-    font-family: Arial;
+    font-family: inter, Arial;
 }
