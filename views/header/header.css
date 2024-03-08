@@ -1,0 +1,27 @@
+﻿.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.navlinks {
+    color: gray;
+    font-family: "inter";
+}
+
+.socials {
+    color: gray;
+    font-family: "inter";
+}
+
+.site-logo {
+    color: gray;
+    text-decoration-line: none;
+    font-family: "inter";
+}

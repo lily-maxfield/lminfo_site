@@ -1,15 +1,35 @@
 ﻿@font-face {
-    font-family: "inter-regular";
+    font-family: "inter";
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
-.site-logo {
-    /*color: gray;
-    text-decoration-line: none;*/
-    font-family: "inter-regular";
+.lminfo-logo {
+    color: gray;
+    text-decoration-line: none;
+    font-family: "inter";
 }
 
 .lminfo-h1 {
-    /*color: gray;*/
-    font-family: "inter-regular";
+    color: gray;
+    font-family: "inter";
+}
+
+.lminfo-h2 {
+    color: gray;
+    font-family: "inter";
+}
+
+.lminfo-h3 {
+    color: gray;
+    font-family: "inter";
+}
+
+.lminfo-h4 {
+    color: gray;
+    font-family: "inter";
+}
+
+.lminfo-p {
+    color: gray;
+    font-family: "inter";
 }
