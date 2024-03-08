@@ -3,9 +3,52 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <link rel="stylesheet" href="assets/css/lminfo_styles.css">
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: DodgerBlue;
+        }
+
+        .flex-container > div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 30px;
+            font-size: 30px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Test header!</h1>
+<body style="margin:0;padding:0">
+    <header>
+        <div class="flex-container">
+            <div style="flex-grow: 1">
+                <a href="https://lilymaxfield.info" class="site-logo">
+                    Lily Maxfield
+                </a>
+            </div>
+            <div style="flex-grow: 3">
+                <a href="https://lilymaxfield.info/experience">
+                    Experience
+                </a>
+                <a href="https://lilymaxfield.info/skills">
+                    Skills
+                </a>
+                <a href="https://lilymaxfield.info/portfolio">
+                    Portfolio
+                </a>
+                <a href="https://lilymaxfield.info/contact">
+                    Contact
+                </a>
+            </div>
+            <div style="flex-grow: 1">
+                <a href="https://linkedin.com/in/lilymaxfield">
+                    LinkedIn
+                </a>
+                <a href="mailto:lilymaxfield@outlook.com">
+                    Mail
+                </a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
