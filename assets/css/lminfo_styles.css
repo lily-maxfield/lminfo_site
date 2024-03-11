@@ -3,33 +3,27 @@
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
-.lminfo-logo {
-    color: gray;
-    text-decoration-line: none;
-    font-family: "inter";
-}
-
 .lminfo-h1 {
-    color: gray;
+    color: black;
     font-family: "inter";
 }
 
 .lminfo-h2 {
-    color: gray;
+    color: black;
     font-family: "inter";
 }
 
 .lminfo-h3 {
-    color: gray;
+    color: black;
     font-family: "inter";
 }
 
 .lminfo-h4 {
-    color: gray;
+    color: black;
     font-family: "inter";
 }
 
 .lminfo-p {
-    color: gray;
+    color: black;
     font-family: "inter";
 }

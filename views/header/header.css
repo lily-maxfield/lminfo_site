@@ -12,15 +12,15 @@
     src: url("../../assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .header a {
         float: none;
-        display: block;
         text-align: left;
     }
 
     .header-navlinks {
         float: none;
+        display: none;
     }
 }
 
@@ -35,41 +35,43 @@ body {
     background-color: #002349;
 }
 
-.header a {
-    float: left;
-    color: black;
+.header-navlinks {
+    float: right;
+    display: flex;
+}
+
+.navlinks {
+    float: right;
+    color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.0em;
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 0px;
+    font-family: "inter";
 }
 
-.header a:hover {
-    background-color: #ddd;
+.navlinks:hover {
+    background-color: #8ea0c9;
     color: black;
 }
 
-.header a.active {
+.navlinks.active {
     background-color: dodgerblue;
     color: white;
 }
 
-.header-navlinks {
-    float: right;
-    color: gray;
-    text-decoration-line: none;
-    font-size: 1.0em;
-    font-family: "inter";
-}
-
 .header a.logo {
-    color: gray;
+    color: white;
+    float: left;
     text-decoration-line: none;
-    font-size: 1.2em;
+    font-size: 2em;
     font-family: "logo";
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 200;
     font-style: normal;
+    text-wrap: nowrap;
+    text-align: center;
+    padding: 5px;
 }
