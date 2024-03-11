@@ -35,22 +35,21 @@ body {
 
 .navlinks {
     float: right;
+}
+
+.navlink {
     color: white;
-    text-align: center;
-    padding: 12px;
     text-decoration: none;
     font-size: 1.0em;
-    line-height: 25px;
-    border-radius: 0px;
     font-family: "inter";
 }
 
-.navlinks:hover {
+.navlink:hover {
     background-color: #8ea0c9;
     color: black;
 }
 
-.navlinks.active {
+.navlink.active {
     background-color: dodgerblue;
     color: white;
 }
