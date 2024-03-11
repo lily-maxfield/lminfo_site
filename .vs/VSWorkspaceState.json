@@ -2,11 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\components",
-    "\\models",
+    "\\assets\\css",
+    "\\assets\\fonts",
+    "\\assets\\fonts\\inter",
+    "\\assets\\fonts\\inter\\static",
+    "\\assets\\images",
     "\\views",
-    "\\views\\home"
+    "\\views\\footer",
+    "\\views\\header"
   ],
-  "SelectedNode": "\\components\\jquery-3.7.1.slim.min.js",
+  "SelectedNode": "\\assets\\fonts\\inter\\Inter-VariableFont_slnt,wght.ttf",
   "PreviewInSolutionExplorer": false
 }
