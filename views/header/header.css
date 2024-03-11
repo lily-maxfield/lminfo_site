@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: "inter";
-    src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
+    src: url("../../assets/fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "logo";
-    src: url("../fonts/inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
+    src: url("../../assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
 }
 
 @media screen and (max-width: 500px) {
