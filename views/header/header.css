@@ -23,6 +23,12 @@
     }
 }
 
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display: none;
+    }
+}
+
 body {
     margin: 0;
     font-family: "inter", Helvetica, sans-serif;
@@ -31,22 +37,26 @@ body {
 .header {
     overflow: hidden;
     background-color: #002349;
+    height: 60px;
+    line-height: 60px;
 }
 
 .navlinks {
     float: right;
+    padding-right: 5px;
 }
 
 .navlink {
     color: white;
     text-decoration: none;
-    font-size: 1.0em;
+    font-size: 20px;
     font-family: "inter";
+    padding: 10px;
 }
 
 .navlink:hover {
-    background-color: #8ea0c9;
-    color: black;
+    background-color: #ffffff;
+    color: #002349;
 }
 
 .navlink.active {
@@ -58,12 +68,23 @@ body {
     color: white;
     float: left;
     text-decoration-line: none;
-    font-size: 2em;
+    font-size: 30px;
     font-family: "logo";
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     text-wrap: nowrap;
     text-align: center;
-    padding: 5px;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.menu-button {
+    float: right;
+    padding-right: 5px;
+}
+
+.menu-button a.hover {
+    background-color: #ffffff;
+    color: #002349;
 }
