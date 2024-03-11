@@ -18,8 +18,7 @@
         text-align: left;
     }
 
-    .header-navlinks {
-        float: none;
+    .navlinks {
         display: none;
     }
 }
@@ -33,13 +32,6 @@ body {
     overflow: hidden;
     display: flex;
     background-color: #002349;
-    flex-grow: 2;
-}
-
-.header-navlinks {
-    float: right;
-    display: flex;
-    flex-grow: 8;
 }
 
 .navlinks {
