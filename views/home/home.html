@@ -26,7 +26,6 @@
         $(function () {
             $.ajax({
                 type: "GET",
-                async: false,
                 url: "views/header/header.html",
                 dataType: "html",
                 success: function (answer) {
@@ -41,7 +40,6 @@
         $(function () {
             $.ajax({
                 type: "GET",
-                async: false,
                 url: "views/footer/footer.html",
                 dataType: "html",
                 success: function (answer) {
@@ -57,13 +55,18 @@
 </head>
 <body>
     <div class="intro-div">
+        <!--Intro section-->
         <h1 class="lminfo-h1">Hi, I'm Lily!</h1>
-        <p>Software Engineer and Certified LabVIEW Developer</p>
-        <h2>Who am I?</h2>
-        <p>Great to meet you! I&#8217;m a software engineer based in <strong>Sheffield UK</strong>, 
+        <p class="lminfo-p">Software Engineer and Certified LabVIEW Developer</p>
+
+        <!--Who am I?-->
+        <h2 class="lminfo-h2">Who am I?</h2>
+        <p class="lminfo-p">Great to meet you! I&#8217;m a software engineer based in <strong>Sheffield UK</strong>, 
         with experience in <strong>bespoke software production</strong> for multiple sectors.<br>
         I have a first class honours degree in electronic engineering and I&#8217;m currently working 
         as an <strong>MES engineer</strong> for a large industrial application.</p>
+
+        <!--Navigation links-->
     </div>
 </body>
 </html>
