@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\css",
-    "\\assets\\fonts",
-    "\\assets\\fonts\\inter",
-    "\\assets\\fonts\\inter\\static",
-    "\\assets\\images",
     "\\views",
+    "\\views\\blog",
+    "\\views\\contact",
+    "\\views\\experience",
     "\\views\\footer",
-    "\\views\\header"
+    "\\views\\header",
+    "\\views\\home",
+    "\\views\\portfolio",
+    "\\views\\skills"
   ],
-  "SelectedNode": "\\assets\\fonts\\inter\\Inter-VariableFont_slnt,wght.ttf",
+  "SelectedNode": "\\views\\header\\header.html",
   "PreviewInSolutionExplorer": false
 }
