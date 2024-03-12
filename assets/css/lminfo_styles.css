@@ -1,4 +1,8 @@
-﻿@font-face {
+﻿* {
+    box-sizing: border-box;
+}
+
+@font-face {
     font-family: "inter";
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
@@ -37,6 +41,14 @@
 
 .lminfo-p {
     color: black;
+    font-family: "inter";
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lminfo-p-white {
+    color: white;
     font-family: "inter";
     margin: 0px;
     margin-top: 5px;

@@ -1,8 +1,4 @@
-﻿* {
-    box-sizing: border-box;
-}
-
-@font-face {
+﻿@font-face {
     font-family: "inter";
     src: url("../../assets/fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
@@ -114,4 +110,12 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-family: "inter";
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

@@ -1,8 +1,4 @@
-﻿* {
-    box-sizing: border-box;
-}
-
-@font-face {
+﻿@font-face {
     font-family: "inter";
     src: url("../../assets/fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
