@@ -10,8 +10,8 @@
 
 /*Responsive header queries*/
 @media screen and (max-width: 800px) {
-    .logo {
-        margin: auto;
+    .mobile-menu {
+        display: none;
     }
 
     .navlinks {
@@ -95,6 +95,8 @@ body {
 .menu-button button {
     background-color: transparent;
     border: none;
+    height:60px;
+    width:60px;
 }
 
 .mobile-menu {
@@ -110,12 +112,4 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-family: "inter";
-}
-
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
