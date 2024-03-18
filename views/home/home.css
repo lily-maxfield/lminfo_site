@@ -9,6 +9,17 @@
 }
 
 .intro-div {
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+.intro-banner {
+}
+
+.intro-banner-left {
+    float:left;
+}
+
+.intro-banner-right {
+    float:right;
 }
