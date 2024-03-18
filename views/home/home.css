@@ -14,12 +14,14 @@
 }
 
 .intro-banner {
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .intro-banner-left {
-    float:left;
+    flex-grow:1;
 }
 
 .intro-banner-right {
-    float:right;
+    flex-grow:1;
 }
