@@ -6,13 +6,20 @@
     overflow: hidden;
     background-color: #002349;
     height: 60px;
-    line-height: 60px;
 }
 
 .copyright-div {
     float: left;
+    padding: 15px;
+    padding-left: 10px;
 }
 
 .socials-div {
-    float:right;
+    float: right;
+    padding: 10px;
+}
+
+.social-link img {
+    padding-left: 2px;
+    padding-right: 2px;
 }
