@@ -9,6 +9,10 @@
     line-height: 60px;
 }
 
-.socials {
+.copyright-div {
+    float: left;
+}
+
+.socials-div {
     float:right;
 }
