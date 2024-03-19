@@ -8,14 +8,10 @@
     src: url("../../assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
 }
 
-.intro-div {
-    width: 90%;
-    margin: auto;
-}
-
 .intro-banner {
     display:flex;
     flex-wrap:wrap;
+    height:400px;
 }
 
 .intro-banner-left {

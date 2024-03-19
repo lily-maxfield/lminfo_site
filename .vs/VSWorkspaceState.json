@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\images",
     "\\views",
     "\\views\\experience",
     "\\views\\footer",
@@ -11,5 +11,6 @@
     "\\views\\portfolio",
     "\\views\\skills"
   ],
+  "SelectedNode": "\\views\\footer\\footer.html",
   "PreviewInSolutionExplorer": false
 }

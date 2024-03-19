@@ -87,3 +87,8 @@
     margin: 0;
     font-weight: bold;
 }
+
+.body-content {
+    padding:20px;
+    width:90%;
+}
