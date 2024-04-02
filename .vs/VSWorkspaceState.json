@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\images",
+    "\\components",
+    "\\models",
     "\\views",
-    "\\views\\experience",
-    "\\views\\footer",
+    "\\views\\blog",
+    "\\views\\contact",
     "\\views\\header",
     "\\views\\home",
     "\\views\\portfolio",
     "\\views\\skills"
   ],
+  "SelectedNode": "\\views\\home\\home.css",
   "PreviewInSolutionExplorer": false
 }
