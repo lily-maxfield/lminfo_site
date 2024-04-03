@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
-    "\\models",
     "\\views",
     "\\views\\blog",
     "\\views\\contact",
+    "\\views\\experience",
+    "\\views\\footer",
     "\\views\\header",
     "\\views\\home",
     "\\views\\portfolio",
     "\\views\\skills"
   ],
-  "SelectedNode": "\\views\\home\\home.css",
+  "SelectedNode": "\\views\\contact\\.htaccess",
   "PreviewInSolutionExplorer": false
 }
