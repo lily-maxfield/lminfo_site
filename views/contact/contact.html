@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/assets/css/lminfo_styles.css">
+    <link rel="stylesheet" href="../../assets/css/lminfo_styles.css">
     <link rel="stylesheet" href="contact.css">
 
     <title>Lily Maxfield - MES Engineer</title>
@@ -20,14 +20,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="/components/jquery-3.7.1.slim.min.js"></script>
+    <script src="../../components/jquery-3.7.1.slim.min.js"></script>
 
     <!--Loading header and footer from external files-->
     <script>
         $(function () {
             $.ajax({
                 type: "GET",
-                url: "/views/header/header.html",
+                url: "../views/header/header.html",
                 dataType: "html",
                 success: function (answer) {
                     $("body").prepend(answer);
@@ -41,7 +41,7 @@
         $(function () {
             $.ajax({
                 type: "GET",
-                url: "/views/footer/footer.html",
+                url: "../views/footer/footer.html",
                 dataType: "html",
                 success: function (answer) {
                     $("body").append(answer);
