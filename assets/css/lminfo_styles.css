@@ -7,6 +7,13 @@
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
+.body-content {
+    width: 90%;
+    margin: auto;
+}
+
+/*Text and headers*/
+
 .lminfo-h1 {
     color: black;
     font-family: "inter";
@@ -71,14 +78,6 @@
     margin-bottom: 5px;
 }
 
-.spacer-div-single {
-    height:20px;
-}
-
-.spacer-div-double {
-    height: 40px;
-}
-
 .lminfo-big-header {
     color: black;
     font-family: "inter";
@@ -88,10 +87,17 @@
     font-weight: bold;
 }
 
-.body-content {
-    width: 90%;
-    margin: auto;
+/*Types of div spacer*/
+
+.spacer-div-single {
+    height:20px;
 }
+
+.spacer-div-double {
+    height: 40px;
+}
+
+/*CSS Properties for "callout" bubbles*/
 
 .lminfo-callout-container{
 
