@@ -3,7 +3,56 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/lminfo_styles.css">
+    <link rel="stylesheet" href="views/home/home.css">
+
+    <title>Lily Maxfield - MES Engineer</title>
+
+    <meta name="description" content="Personal Portfolio, CV and Contact Details." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Lily Maxfield - Personal Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Lily Maxfield - MES Engineer" />
+    <meta property="og:description" content="Personal Portfolio, CV and Contact Details." />
+    <meta property="og:url" content="https://lilymaxfield.info/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="components/jquery-3.7.1.slim.min.js"></script>
+
+    <!--Loading header and footer from external files-->
+    <script>
+        $(function () {
+            $.ajax({
+                type: "GET",
+                url: "views/header/header.html",
+                dataType: "html",
+                success: function (answer) {
+                    $("body").prepend(answer);
+                },
+                error: function () {
+                    alert("Failed header AJAX call.");
+                }
+            });
+            return false;
+        });
+        $(function () {
+            $.ajax({
+                type: "GET",
+                url: "views/footer/footer.html",
+                dataType: "html",
+                success: function (answer) {
+                    $("body").append(answer);
+                },
+                error: function () {
+                    alert("Failed footer AJAX call.");
+                }
+            });
+            return false;
+        });
+    </script>
 </head>
 <body>
 

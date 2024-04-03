@@ -1,6 +1,4 @@
-RewriteEngine On
-
-RewriteRule ^views/contact/(.*)$ /$1 [L,NC,R=302]
+RewriteRule ^$ views/contact/contact.html [L]
 
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
 Header set Cache-Control "max-age=60, public"
