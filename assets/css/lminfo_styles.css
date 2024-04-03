@@ -93,11 +93,42 @@
     width:90%;
 }
 
-.lminfo-big-pill {
+.lminfo-callout-container{
+
+}
+
+.lminfo-callout {
     overflow: hidden;
     height: 60px;
     line-height: 60px;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
-    border: 2px solid #002349;
+    border: 3px solid #002349;
+    margin: auto;
+}
+
+.lminfo-callout-title {
+    text-align: left;
+    color: black;
+    font-family: "inter";
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.lminfo-callout-date {
+    text-align: right;
+    color: black;
+    font-family: "inter";
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
