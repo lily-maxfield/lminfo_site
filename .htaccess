@@ -1,6 +1,6 @@
 DirectoryIndex views/home/home.html
 
-RewriteRule \w+(?=.html) /$1 [L]
+#RewriteRule \w+(?=.html) /$1 [L]
 
 #RewriteRule ^$ views/home/home.html [L]
 
