@@ -1,11 +1,6 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule \w+(?=.html) views/$1/$1/.html [N]
+DirectoryIndex views/home/home.html
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^$ views/home/home.html [L]
+#RewriteRule ^$ views/home/home.html [L]
 
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
 Header set Cache-Control "max-age=60, public"
