@@ -9,15 +9,12 @@
 }
 
 .intro-banner {
-    display:flex;
-    flex-wrap:wrap;
-    height:400px;
 }
 
 .intro-banner-left {
-    flex-grow:1;
+    float:left;
 }
 
 .intro-banner-right {
-    flex-grow:1;
+    float:right;
 }
