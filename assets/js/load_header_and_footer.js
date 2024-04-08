@@ -1,7 +1,7 @@
 $(function () {
     $.ajax({
         type: "GET",
-        url: "../header/header.html",
+        url: "/views/header/header.html",
         dataType: "html",
         success: function (answer) {
             $(".page-container").prepend(answer);
@@ -15,7 +15,7 @@ $(function () {
 $(function () {
     $.ajax({
         type: "GET",
-        url: "../footer/footer.html",
+        url: "/views/footer/footer.html",
         dataType: "html",
         success: function (answer) {
             $(".page-container").append(answer);
