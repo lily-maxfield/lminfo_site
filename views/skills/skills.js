@@ -9,11 +9,11 @@ fetch('skills.json')
         console.log(skills);
     });
 
-const skillsDiv = document.getElementById("skills-div");
+const skillsDiv = document.getElementById("skills-list");
 
 for (skill in skills) {
     const divRef = document.createElement("div");
     divRef.setAttribute("name", skill);
     skillsDiv.appendChild(divRef);
-    
+
 }
