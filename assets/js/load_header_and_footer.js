@@ -4,7 +4,7 @@ $(function () {
         url: "../header/header.html",
         dataType: "html",
         success: function (answer) {
-            $("body").prepend(answer);
+            $(".body-content").prepend(answer);
         },
         error: function () {
             alert("Failed header AJAX call.");
@@ -18,7 +18,7 @@ $(function () {
         url: "../footer/footer.html",
         dataType: "html",
         success: function (answer) {
-            $("body").append(answer);
+            $(".body-content").append(answer);
         },
         error: function () {
             alert("Failed footer AJAX call.");
