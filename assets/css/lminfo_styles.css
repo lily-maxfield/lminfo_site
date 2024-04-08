@@ -7,8 +7,7 @@
     src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
 }
 
-.body-content {
-    width: 90%;
+.page-container {
     margin: auto;
     position: relative;
     min-height: 100vh;

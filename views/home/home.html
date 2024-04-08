@@ -23,39 +23,10 @@
     <script src="components/jquery-3.7.1.slim.min.js"></script>
 
     <!--Loading header and footer from external files-->
-    <script>
-        $(function () {
-            $.ajax({
-                type: "GET",
-                url: "views/header/header.html",
-                dataType: "html",
-                success: function (answer) {
-                    $("body").prepend(answer);
-                },
-                error: function () {
-                    alert("Failed header AJAX call.");
-                }
-            });
-            return false;
-        });
-        $(function () {
-            $.ajax({
-                type: "GET",
-                url: "views/footer/footer.html",
-                dataType: "html",
-                success: function (answer) {
-                    $("body").append(answer);
-                },
-                error: function () {
-                    alert("Failed footer AJAX call.");
-                }
-            });
-            return false;
-        });
-    </script>
+    <script type="text/javascript" src="../../assets/js/load_header_and_footer.js"></script>
 </head>
 <body>
-    <div class="body-content">
+    <div class="page-container">
         <!--Intro section-->
         <div class="intro-banner">
             <div class="intro-banner-left">
