@@ -1,5 +1,10 @@
-﻿.skill-bubble {
+﻿.skills-list {
+    flex-wrap: wrap;
+}
+
+.skill-bubble {
     background-color: #002349;
     border-radius: 3px;
-    flex-wrap: wrap;
+    padding: 3px;
+    color: white;
 }
