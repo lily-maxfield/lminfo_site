@@ -1,19 +1,21 @@
-var skills;
+var skillsObj;
 
 fetch('skills.json')
     .then(res => res.json())
     .then(data => {
-        skills = data;
+        skillsObj = data;
     })
     .then(() => {
-        console.log(skills);
+        console.log(skillsObj);
+    })
+    .then(() => {
+        const skillsDiv = document.getElementById("skills-list");
+
+        for (skill in skillsObj.skills) {
+            console.log(skill);
+            divRef = document.createElement("div");
+            divRef.innerHTML = skill;
+            divRef.classList.add("skill-bubble");
+            skillsDiv.appendChild(divRef);
+        }
     });
-
-const skillsDiv = document.getElementById("skills-list");
-
-for (skill in skills) {
-    const divRef = document.createElement("div");
-    divRef.setAttribute("name", skill);
-    skillsDiv.appendChild(divRef);
-
-}

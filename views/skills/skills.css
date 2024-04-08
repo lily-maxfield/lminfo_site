@@ -1,3 +1,5 @@
-﻿body
-{
+﻿.skill-bubble {
+    background-color: #002349;
+    border-radius: 3px;
+    flex-wrap: wrap;
 }
