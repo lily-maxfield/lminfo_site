@@ -6,7 +6,7 @@ fetch('skills.json')
         skills = data;
     })
     .then(() => {
-        console.log(obj);
+        console.log(skills);
     });
 
 const skillsDiv = document.getElementById("skills-div");
