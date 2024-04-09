@@ -12,10 +12,24 @@ fetch('skills.json')
         const skillsDiv = document.getElementById("skills-list");
 
         for (skill in skillsObj.skills) {
-            console.log(skill);
-            divRef = document.createElement("div");
-            divRef.innerHTML = skill;
-            divRef.classList.add("skill-bubble");
-            skillsDiv.appendChild(divRef);
+            /*Creating new parent "newDiv" and child divs "textDiv"
+             *and "ratingDiv" to hold skill information*/
+            newDiv = document.createElement("div");
+            textDiv = document.createElement("div");
+            ratingDiv = document.createElement("div");
+
+            /*Populating skill div information*/
+            textDiv.id = "skill-text";
+            textDiv.innerHTML = skill;
+
+            ratingDiv.id = "skill-rating";
+            ratingDiv.innerHTML = skillsObj[skill];
+
+            newDiv.classList.add("skill-bubble");
+            newDiv.appendChild(textDiv);
+            newDiv.appendChild(ratingDiv);
+
+            /*Adding this div to the placeholder skills list div*/
+            skillsDiv.appendChild(newDiv);
         }
     });

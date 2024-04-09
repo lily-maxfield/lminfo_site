@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\js",
     "\\views",
-    "\\views\\experience",
-    "\\views\\footer",
+    "\\views\\blog",
+    "\\views\\contact",
     "\\views\\header",
     "\\views\\home",
     "\\views\\portfolio",
     "\\views\\skills"
   ],
-  "SelectedNode": "\\views\\home\\home.html",
+  "SelectedNode": "\\views\\skills\\skills.js",
   "PreviewInSolutionExplorer": false
 }

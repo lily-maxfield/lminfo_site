@@ -26,6 +26,7 @@
     <script type="text/javascript" src="../../assets/js/load_header_and_footer.js"></script>
 
     <script type="text/javascript" src="skills.js"></script>
+    <script type="text/javascript" src="filterSkills.js"></script>
 </head>
 <body>
     <div class="page-container">
@@ -34,10 +35,12 @@
 
             <div class="spacer-div-single"></div>
 
-            <input />
+            <input class="lminfo-body-search" placeholder="Type here to search" onkeyup="filterSkills.js" id="skills-search"/>
+
+            <div class="spacer-div-single"></div>
 
             <div id="skills-list" class="skills-list">
-
+                <!--Skill divs automatically populated here using "skills.js"-->
             </div>
         </div>
     </div>
