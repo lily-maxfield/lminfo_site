@@ -3,7 +3,7 @@ function filter() {
     var searchVal = searchBar.value;
     var skillsDiv = document.getElementById("skills-list");
 
-    var skillsDivs = skillsDiv.children();
+    var skillsDivs = skillsDiv.children;
 
     for (skill in skillsDivs) {
         var textDiv = skill.getElementById("skill-text");
