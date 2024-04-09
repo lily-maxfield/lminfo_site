@@ -158,5 +158,8 @@
 }
 
 .lminfo-body-search {
-
+    color: black;
+    font-family: "inter";
+    display: block;
+    font-size: 1em;
 }

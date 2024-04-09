@@ -6,16 +6,18 @@
 .skill-bubble {
     background-color: #002349;
     border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     color: white;
 }
 
-.skill-text{
-
+.skill-text {
+    width =100%;
 }
 
 .skill-rating {
-
+    width =100%;
+    margin: auto;
+    text-align: center;
 }
