@@ -19,12 +19,10 @@ fetch('skills.json')
             ratingDiv = document.createElement("div");
 
             /*Populating skill div information*/
-            textDiv.id = "skill-text";
+            textDiv.classList.add("skill-text");
             textDiv.innerHTML = skill;
 
-            ratingDiv.id = "skill-rating";
-            var skillRating = skillsObj.skills[skill];
-            console.log(skillRating);
+            ratingDiv.classList.add("skill-rating");
             ratingDiv.innerHTML = skillsObj.skills[skill];
 
             newDiv.classList.add("skill-bubble");
