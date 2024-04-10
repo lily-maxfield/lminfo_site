@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\js",
+    "\\assets\\images",
     "\\views",
     "\\views\\blog",
     "\\views\\contact",
@@ -11,6 +11,6 @@
     "\\views\\portfolio",
     "\\views\\skills"
   ],
-  "SelectedNode": "\\views\\skills\\skills.js",
+  "SelectedNode": "\\assets\\images\\baseline_star_white_24dp.png",
   "PreviewInSolutionExplorer": false
 }

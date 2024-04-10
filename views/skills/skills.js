@@ -10,8 +10,6 @@ fetch('skills.json')
     })
     .then(() => {
         const skillsDiv = document.getElementById("skills-list");
-        starIcon = document.createElement("img");
-        starIcon.src = "/assets/images/baseline_star_white_24dp.png"
 
         for (skill in skillsObj.skills) {
             /*Creating new parent "newDiv" and child divs "textDiv"
@@ -26,6 +24,8 @@ fetch('skills.json')
 
             ratingDiv.classList.add("skill-rating");
             for (let i = 0; i < skillsObj.skills[skill]; i++) {
+                starIcon = document.createElement("img");
+                starIcon.src = "/assets/images/baseline_star_white_24dp.png"
                 ratingDiv.appendChild(starIcon);
             }
 
