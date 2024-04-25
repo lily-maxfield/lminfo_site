@@ -6,11 +6,12 @@
     "\\views",
     "\\views\\blog",
     "\\views\\contact",
+    "\\views\\experience",
     "\\views\\header",
     "\\views\\home",
     "\\views\\portfolio",
     "\\views\\skills"
   ],
-  "SelectedNode": "\\assets\\images\\baseline_star_white_24dp.png",
+  "SelectedNode": "\\views\\experience\\experience.html",
   "PreviewInSolutionExplorer": false
 }
