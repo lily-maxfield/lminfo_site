@@ -163,3 +163,33 @@
     display: block;
     font-size: 1em;
 }
+
+.lminfo-callout-linked {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #002349;
+    margin: auto;
+}
+
+.lminfo-callout-linked-title {
+    float: right;
+}
+
+.lminfo-callout-linked-title p {
+    text-align: right;
+    color: black;
+    font-family: "inter";
+    display: block;
+    font-size: 1.5em;
+    margin: 0.83em;
+    font-weight: bold;
+}
+
+.lminfo-callout-linked-img {
+    float: left;
+}
+
+.lminfo-callout-linked-img a {
+    margin: 0.83em;
+}
