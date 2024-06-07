@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\images",
-    "\\views",
-    "\\views\\blog",
+    "\\assets\\js",
     "\\views\\contact",
     "\\views\\experience",
+    "\\views\\footer",
     "\\views\\header",
     "\\views\\home",
     "\\views\\portfolio",
     "\\views\\skills"
   ],
-  "SelectedNode": "\\views\\experience\\experience.html",
+  "SelectedNode": "\\assets\\js\\load_header_and_footer.js",
   "PreviewInSolutionExplorer": false
 }

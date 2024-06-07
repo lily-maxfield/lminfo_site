@@ -13,6 +13,19 @@
 		"SVN":2,
 		"Git":2,
 		"NI TestStand":2,
-		"Verilog":1
+		"Verilog": 1,
+		"GXWorks": 2,
+		"ORCAD": 2,
+		"Eagle CAD": 2,
+		"PSpice": 2,
+		"LTSpice": 1,
+		"SolidWorks": 1,
+		"Fusion 360": 2,
+		"Quartus": 1,
+		"Xilinx ISE": 1,
+		"MKTest": 2,
+		"Inkscape": 2,
+		"MATLAB": 2,
+		"Ladder-Logic": 2
 	}
 }
