@@ -1,8 +1,6 @@
 DirectoryIndex views/home/home.php
 
-#RewriteRule (\w+\/\w+\.php) /$1 [L]
-
-#RewriteRule ^$ views/home/home.php [L]
+RewriteRule \/\w+(?=\.php) "" [L]
 
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
 Header set Cache-Control "max-age=60, public"
