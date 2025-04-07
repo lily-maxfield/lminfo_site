@@ -20,3 +20,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="/views/header/header.js"></script>
+<link rel="stylesheet" href="/assets/css/lminfo_styles.css">
+<link rel="stylesheet" href="/views/header/header.css">
+<link rel="stylesheet" href="/assets/css/lminfo_styles.css">
+<link rel="stylesheet" href="/views/footer/footer.css">
