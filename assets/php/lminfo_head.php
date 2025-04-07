@@ -11,16 +11,16 @@
 <meta property="og:url" content="https://lilymaxfield.info/" />
 <title>Lily Maxfield - MES Engineer</title>
 
-<link rel="preload" href="../assets/fonts/inter/static/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../assets/fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://lilymaxfield.info/assets/fonts/inter/static/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://lilymaxfield.info/assets/fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="views/home/home.css">
-<link rel="stylesheet" href="/assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="/views/header/header.css">
-<link rel="stylesheet" href="/assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="/views/footer/footer.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/views/home/home.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/views/header/header.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/views/footer/footer.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="/views/header/header.js"></script>
+<script type="text/javascript" src="https://lilymaxfield.info/views/header/header.js"></script>
