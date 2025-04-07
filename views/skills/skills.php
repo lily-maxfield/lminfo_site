@@ -28,7 +28,7 @@
 					$json_a = json_decode($string);
 					foreach($json_a->skills as $skill)
 					{
-						echo '<div></div>'
+						echo '<div></div>';
 					}
 				?>
 			</div>
