@@ -2,7 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <?php include ('../../assets/php/lminfo_head.php'); ?>
+    <?php include '../../assets/php/lminfo_head.php';?>
 </head>
 <body>
     <div class="page-container">
