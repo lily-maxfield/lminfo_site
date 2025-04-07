@@ -17,6 +17,3 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script src="components/jquery-3.7.1.slim.min.js"></script>
-
-<!--Loading header and footer from external files-->
-<script type="text/javascript" src="../../assets/js/load_header_and_footer.js"></script>

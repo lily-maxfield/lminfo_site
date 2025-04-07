@@ -5,6 +5,7 @@
     <?php include '../../assets/php/lminfo_head.php';?>
 </head>
 <body>
+    <?php include '../header/header.php';?>
     <div class="page-container">
         <div class="content-wrap">
             <!--Intro section-->
@@ -34,5 +35,6 @@
             <!--Navigation links-->
         </div>
     </div>
+    <?php include '../footer/footer.php';?>
 </body>
 </html>
