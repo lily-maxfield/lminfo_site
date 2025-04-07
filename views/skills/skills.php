@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <?php include '../../assets/php/lminfo_head.php';?>
+	<script type="text/javascript" src="filterSkills.js"></script>
 </head>
 <body>
 	<?php include '../header/header.php';?>
@@ -21,6 +22,15 @@
 
 			<div id="skills-list" class="skills-list">
 				<!--Skill divs automatically populated here using "skills.js"-->
+			
+				<?php
+					$string = file_get_contents("skills.json");
+					$json_a = json_decode($string);
+					foreach($json_a->skills as $skill)
+					{
+						echo '<div></div>'
+					}
+				?>
 			</div>
 		</div>
 	</div>
