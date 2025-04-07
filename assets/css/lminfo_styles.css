@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "inter";
-    src: url("../fonts/inter/static/Inter-Regular.ttf") format('truetype');
+    src: url("../fonts/inter/static/Inter-Regular.woff2") format('woff2');
 }
 
 .page-container {
