@@ -2,30 +2,10 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="../../assets/css/lminfo_styles.css">
-    <link rel="stylesheet" href="experience.css">
-
-    <title>Lily Maxfield - MES Engineer</title>
-
-    <meta name="description" content="Personal Portfolio, CV and Contact Details." />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Lily Maxfield - Personal Portfolio" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Lily Maxfield - MES Engineer" />
-    <meta property="og:description" content="Personal Portfolio, CV and Contact Details." />
-    <meta property="og:url" content="https://lilymaxfield.info/" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="../../components/jquery-3.7.1.slim.min.js"></script>
-
-    <!--Loading header and footer from external files-->
-    <script type="text/javascript" src="../../assets/js/load_header_and_footer.js"></script>
+    <?php include '../../assets/php/lminfo_head.php';?>
 </head>
 <body>
+    <?php include '../header/header.php';?>
     <div class="page-container">
         <div class="content-wrap">
             <h1 class="lminfo-h1">Experience</h1>
