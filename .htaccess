@@ -1,6 +1,6 @@
 DirectoryIndex views/home/home.php
 
-#RewriteRule \w+(?=.php) /$1 [L]
+#RewriteRule (\w+\/\w+\.php) /$1 [L]
 
 #RewriteRule ^$ views/home/home.php [L]
 
@@ -11,7 +11,3 @@ Header set Cache-Control "max-age=60, public"
 <filesMatch ".(woff2)$">
 Header set Cache-Control "max-age=15552000, public"
 </filesMatch>
-
-RewriteEngine on
-RewriteCond %{REQUEST_URI} !^views/skills/
-RewriteRule ^(.*)$ views/skills/$1 [L]
