@@ -26,11 +26,16 @@
 				<?php
 					$string = file_get_contents("skills.json");
 					$json_a = json_decode($string);
-					foreach($json_a->skills as $skill)
+					foreach($json_a->skills as $skill => $val)
 					{
-						echo '<div><div class="skill-text">',
+						echo '<div>',
+							 '<div class="skill-text">',
 							 $skill,
-							 '</div></div>';
+							 '</div>',
+							 '<div class="skill-rating">',
+							 $val,
+							 '</div>',
+							 '</div>';
 					}
 				?>
 			</div>
