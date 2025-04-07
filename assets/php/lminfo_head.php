@@ -1,8 +1,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="preload" href="../fonts/inter/static/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/inter/static/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="stylesheet" href="assets/css/lminfo_styles.css">
 <link rel="stylesheet" href="views/home/home.css">
