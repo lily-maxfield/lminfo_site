@@ -16,10 +16,10 @@
             </div>
 
             <div class="navlinks">
-                <a href="/views/experience/experience.html" class="navlink">Experience</a>
-                <a href="/views/skills/skills.html" class="navlink">Skills</a>
-                <a href="/views/portfolio/portfolio.html" class="navlink">Portfolio</a>
-                <a href="/views/contact/contact.html" class="navlink">Contact</a>
+                <a href="/views/experience/experience.php" class="navlink">Experience</a>
+                <a href="/views/skills/skills.php" class="navlink">Skills</a>
+                <a href="/views/portfolio/portfolio.php" class="navlink">Portfolio</a>
+                <a href="/views/contact/contact.php" class="navlink">Contact</a>
             </div>
 
             <div class="menu-button">
@@ -27,10 +27,10 @@
             </div>
         </div>
         <div class="mobile-menu" id="mobile-menu">
-            <a href="/views/experience/experience.html" class="navlink">Experience</a>
-            <a href="/views/skills/skills.html" class="navlink">Skills</a>
-            <a href="/views/portfolio/portfolio.html" class="navlink">Portfolio</a>
-            <a href="/views/contact/contact.html" class="navlink">Contact</a>
+            <a href="/views/experience/experience.php" class="navlink">Experience</a>
+            <a href="/views/skills/skills.php" class="navlink">Skills</a>
+            <a href="/views/portfolio/portfolio.php" class="navlink">Portfolio</a>
+            <a href="/views/contact/contact.php" class="navlink">Contact</a>
         </div>
     </header>
 </body>
