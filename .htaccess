@@ -11,3 +11,7 @@ Header set Cache-Control "max-age=60, public"
 <filesMatch ".(woff2)$">
 Header set Cache-Control "max-age=15552000, public"
 </filesMatch>
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^views/skills/
+RewriteRule ^(.*)$ views/skills/$1 [L]
