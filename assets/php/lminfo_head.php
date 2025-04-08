@@ -11,6 +11,8 @@
 <meta property="og:url" content="https://lilymaxfield.info/" />
 <title>Lily Maxfield - MES Engineer</title>
 
+<link rel="icon" type="image/x-icon" href="https://lilymaxfield.info/assets/images/favicon.ico">
+
 <link rel="preload" href="https://lilymaxfield.info/assets/fonts/inter/static/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="https://lilymaxfield.info/assets/fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
 

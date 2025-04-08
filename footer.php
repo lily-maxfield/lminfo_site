@@ -3,7 +3,10 @@
 <footer>
     <div class="footer">
         <div class="copyright-div">
-            <p class="lminfo-p-white">Lily Maxfield 2024</p>
+            <?php echo '<p class="lminfo-p-white">Lily Maxfield ',
+                        date("Y"),
+                        '</p>';
+            ?>
         </div>
         <div class="socials-div">
             <a class="social-link" href="https://www.linkedin.com/in/lilymaxfield/"><img src="/assets/images/linkedin-40x40-white.png"></a>

@@ -28,7 +28,7 @@
 					$json_a = json_decode($string);
 					foreach($json_a->skills as $skill => $val)
 					{
-						echo '<div>',
+						echo '<div class="skill-bubble">',
 							 '<div class="skill-text">',
 							 $skill,
 							 '</div>',
