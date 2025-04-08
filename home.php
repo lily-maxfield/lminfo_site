@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <?php include 'assets/php/lminfo_head.php';?>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
     <?php include 'header.php';?>

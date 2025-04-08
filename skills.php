@@ -4,6 +4,7 @@
 <head>
     <?php include 'assets/php/lminfo_head.php';?>
 	<script type="text/javascript" src="filterSkills.js"></script>
+	<link rel="stylesheet" href="skills.css">
 </head>
 <body>
 	<?php include 'header.php';?>
