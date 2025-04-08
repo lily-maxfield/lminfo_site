@@ -23,3 +23,37 @@
 .img-float-right {
     float:right;
 }
+
+.anim-underline {
+    background: linear-gradient(currentColor 0 0)
+        bottom left/
+        var(--underline-width, 0%) 0.1em
+        no-repeat;
+    display: inline-block;
+    padding: 0 .5em 0.2em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+}
+
+.expand-underline {
+    background: linear-gradient(currentColor 0 0) bottom left/ var(--underline-width, 0%) 0.1em no-repeat;
+    display: inline-block;
+    padding: 0 .5em 0.2em;
+    text-decoration: none;
+    animation-name: expand-ul;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    visibility: visible !important;
+    /* New code here: */
+    animation-delay: 5s;
+}
+
+@keyframes expand-ul {
+    0% {
+        --underline-width: 0%;
+    }
+
+    100% {
+        --underline-width: 100%;
+    }
+}

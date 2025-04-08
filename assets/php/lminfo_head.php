@@ -6,7 +6,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Lily Maxfield - Personal Portfolio" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Lily Maxfield - MES Engineer" />
+<meta property="og:title" content="Lily Maxfield - Personal Portfolio" />
 <meta property="og:description" content="Personal Portfolio, CV and Contact Details." />
 <meta property="og:url" content="https://lilymaxfield.info/" />
 <title>Lily Maxfield - MES Engineer</title>

@@ -27,14 +27,30 @@
 				<?php
 					$string = file_get_contents("skills.json");
 					$json_a = json_decode($string);
+					$skill_level = "";
 					foreach($json_a->skills as $skill => $val)
 					{
+						switch ($val)
+						{
+							case "1":
+								$skill_level = "★";
+								break;
+							case "2":
+								$skill_level = "★★";
+								break;
+							case "3":
+								$skill_level = "★★★";
+								break;
+							default:
+								$skill_level = "err";
+								break;
+						}
 						echo '<div class="skill-bubble">',
 							 '<div class="skill-text">',
 							 $skill,
 							 '</div>',
 							 '<div class="skill-rating">',
-							 $val,
+							 $skill_level,
 							 '</div>',
 							 '</div>';
 					}
