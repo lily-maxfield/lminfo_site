@@ -15,12 +15,12 @@
 <link rel="preload" href="https://lilymaxfield.info/assets/fonts/inter/variable/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="https://lilymaxfield.info/views/home/home.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/home.css">
 <link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="https://lilymaxfield.info/views/header/header.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/header.css">
 <link rel="stylesheet" href="https://lilymaxfield.info/assets/css/lminfo_styles.css">
-<link rel="stylesheet" href="https://lilymaxfield.info/views/footer/footer.css">
+<link rel="stylesheet" href="https://lilymaxfield.info/footer.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://lilymaxfield.info/views/header/header.js"></script>
+<script type="text/javascript" src="https://lilymaxfield.info/header.js"></script>
