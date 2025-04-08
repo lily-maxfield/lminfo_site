@@ -2,10 +2,10 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <?php include '../../assets/php/lminfo_head.php';?>
+    <?php include 'assets/php/lminfo_head.php';?>
 </head>
 <body>
-    <?php include '../header/header.php';?>
+    <?php include 'header.php';?>
     <div class="page-container">
         <div class="content-wrap">
             <!--Intro section-->
@@ -35,6 +35,6 @@
             <!--Navigation links-->
         </div>
     </div>
-    <?php include '../footer/footer.php';?>
+    <?php include 'footer.php';?>
 </body>
 </html>
