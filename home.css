@@ -84,6 +84,7 @@
 }
 
 .expand-underline {
+    color: black;
     font-style: italic;
     text-decoration: underline;
     background: conic-gradient(from 135deg at 50% -10px, black 90deg, transparent 91deg) 50% calc(-3px - 50%) /100% 300% no-repeat;
@@ -91,6 +92,6 @@
 }
 
 .expand-underline:hover {
+    color: black;
     background-position: bottom;
-    color: #fff
 }
