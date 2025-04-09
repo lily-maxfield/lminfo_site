@@ -13,10 +13,12 @@
 
             <div class="lminfo-callout-container">
                 <a class="lminfo-callout-linked" href="https://www.linkedin.com/in/lilymaxfield/">
-                LinkedIn<img class="contact-link-image" src="/assets/images/linkedin-40x40-blue.png">
+                    <img class="contact-link-image" src="/assets/images/linkedin-40x40-blue.png">
+                    <h2 class="contact-link-name">LinkedIn</h2>
                 </a>
                 <a class="lminfo-callout-linked" href="mailto:lilymaxfield@outlook.com">
-                Mail<img class="contact-link-image" src="/assets/images/mail-40x40-blue.png">
+                    <img class="contact-link-image" src="/assets/images/mail-40x40-blue.png">
+                    <h2 class="contact-link-name">Mail</h2>
                 </a>
             </div>
         </div>

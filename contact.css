@@ -1,12 +1,26 @@
 ﻿.contact-link {
-    border: 3px solid #002349;
     overflow: hidden;
     width: 100%;
     border-radius: 10px;
+    border: 3px solid #002349;
     margin: auto;
     display: inline-block;
+    padding: 10px;
+    background-color: #002349;
 }
 
 .contact-link-image {
     float:left;
+}
+
+.contact-link-name {
+    color: white;
+    font-size: 1.5em;
+    font-family: "inter";
+    float:left;
+}
+
+.contact-link:hover {
+    color: #002349;
+    background-color: #FFFFFF;
 }
