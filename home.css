@@ -29,6 +29,60 @@
     margin-top: 0.67em;
 }
 
+.title {
+    color: black;
+    font-family: "inter";
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.who-am-i {
+    color: black;
+    font-family: "inter";
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    white-space: pre;
+}
+
+.who-am-i-description {
+    color: black;
+    font-family: "inter";
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-description {
+    color: black;
+    font-family: "inter";
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lets-work-together {
+    color: black;
+    font-family: "inter";
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    white-space: pre;
+}
+
 .expand-underline {
     background: linear-gradient(currentColor 0 0) bottom left/ var(--underline-width, 0%) 0.1em no-repeat;
     display: inline-block;
