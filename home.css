@@ -100,3 +100,13 @@
         color: #002349;
         background-color: #FFFFFF;
     }
+
+@media (max-width: 1400px) {
+    .intro-banner-right {
+        display: none;
+    }
+
+    .intro-banner-left {
+        width: 100%;
+    }
+}
