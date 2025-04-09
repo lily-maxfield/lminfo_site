@@ -12,23 +12,12 @@
             <h1 class="lminfo-h1">Contact</h1>
 
             <div class="lminfo-callout-container">
-                <a class="lminfo-callout-linked">
-                LinkedIn
-                <img src="/assets/images/linkedin-40x40-blue.png">
+                <a class="lminfo-callout-linked" href="https://www.linkedin.com/in/lilymaxfield/">
+                LinkedIn<img class="contact-link-image" src="/assets/images/linkedin-40x40-blue.png">
                 </a>
-                <div class="spacer-div-single"></div>
-                <div class="lminfo-callout-linked">
-                    <!--Mail-->
-                    <div>
-                        <div class="lminfo-callout-linked-img">
-                            <a class="social-link"><img src="/assets/images/mail-40x40-blue.png"></a>
-                        </div>
-                        <div class="lminfo-callout-linked-title">
-                            <h2 class="lminfo-h2">Mail</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="spacer-div-single"></div>
+                <a class="lminfo-callout-linked" href="mailto:lilymaxfield@outlook.com">
+                Mail<img class="contact-link-image" src="/assets/images/mail-40x40-blue.png">
+                </a>
             </div>
         </div>
     </div>
