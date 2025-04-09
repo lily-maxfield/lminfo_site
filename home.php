@@ -24,8 +24,7 @@
                     </p>
                     <!--Who am I?-->
                     <div class="expand-anim">
-                        <h2 class="lets">Let's </h2>
-                        <a href="https://www.linkedin.com/in/lilymaxfield/" class="work-together">work together!</a>
+                        <a href="https://www.linkedin.com/in/lilymaxfield/" class="lets-work-together">Let's work together!</a>
                     </div>
                     
                 </div>
