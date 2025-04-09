@@ -22,11 +22,16 @@
                         I have a first class honours degree in electronic engineering and I'm currently 
                         developing on a large-scale industrial application.
                     </p>
-                    <!--Who am I?-->
-                    <div class="expand-anim">
-                        <a href="https://www.linkedin.com/in/lilymaxfield/" class="lets-work-together">Let's work together!</a>
+                    <div class="home-navlinks">
+                      <div class="home-navlinks-col1">
+                        <a href="experience.php" class="home-navlink">Experience</a>
+                        <a href="skills.php" class="home-navlink">Skills</a>
+                      </div>
+                      <div class="home-navlinks-col2">
+                        <a href="portfolio.php" class="home-navlink">Portfolio</a>
+                        <a href="contact.php" class="home-navlink">Contact</a>
+                      </div>
                     </div>
-                    
                 </div>
                 <div class="intro-banner-right">
                     <img class="img-float-right" src="assets/images/1728662272976.jpg" />
