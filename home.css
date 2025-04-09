@@ -66,10 +66,10 @@
 }
 
 .lets-work-together {
-    color: black;
+    color: inherit;
     font-family: "inter";
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -81,11 +81,13 @@
 .expand-anim {
     color: black;
     font-style: italic;
-    background: conic-gradient(from 135deg at 50% -10px, black 90deg, transparent 91deg) 50% calc(-3px - 50%) /100% 300% no-repeat;
-    transition: 0.5s;
+    background: conic-gradient(from 135deg at 50% -10px, black 90deg, transparent 91deg) 50% calc(-3px - 50%) /100% 500% no-repeat;
+    transition: 0.6s;
+    margin-top: 50px;
+    display:inline-block;
 }
 
     .expand-anim:hover {
-        color: black;
+        color: white;
         background-position: bottom;
     }
