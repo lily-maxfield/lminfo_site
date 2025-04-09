@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <footer>
     <div class="footer">
         <div class="copyright-div">

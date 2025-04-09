@@ -22,21 +22,16 @@
                         I have a first class honours degree in electronic engineering and I'm currently 
                         developing on a large-scale industrial application.
                     </p>
+                    <!--Who am I?-->
+                    <h2 class="lminfo-h2">Let's 
+                    <h2 class="expand-underline">work together!
+                    </h2>
+                    </h2>
                 </div>
                 <div class="intro-banner-right">
                     <img class="img-float-right" src="assets/images/350_placeholder.png" />
                 </div>
             </div>
-
-            <div class="spacer-div-single"></div>
-
-            <!--Who am I?-->
-            <h2 class="lminfo-h2">Let's 
-            <h2 class="expand-underline">work together!
-            </h2>
-            </h2>
-
-            <!--Navigation links-->
         </div>
     </div>
     <?php include 'footer.php';?>

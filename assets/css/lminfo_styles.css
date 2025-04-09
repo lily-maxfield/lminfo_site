@@ -35,13 +35,14 @@
 .lminfo-h2 {
     color: black;
     font-family: "inter";
-    display: block;
+    display: inline-block;
     font-size: 1.5em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    white-space: pre;
 }
 
 .lminfo-h3 {

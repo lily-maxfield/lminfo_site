@@ -10,6 +10,7 @@
 
 .intro-banner {
     display:inline-block;
+    width:100%;
 }
 
 .intro-banner-left {
@@ -21,31 +22,22 @@
 }
 
 .img-float-right {
-    float:right;
-}
-
-.anim-underline {
-    background: linear-gradient(currentColor 0 0)
-        bottom left/
-        var(--underline-width, 0%) 0.1em
-        no-repeat;
-    display: inline-block;
-    padding: 0 .5em 0.2em;
-    text-decoration: none;
-    transition: background-size 0.5s;
+    float: right;
+    width: 600px;
+    font-size: 4em;
+    margin-top: 0.67em;
 }
 
 .expand-underline {
     background: linear-gradient(currentColor 0 0) bottom left/ var(--underline-width, 0%) 0.1em no-repeat;
     display: inline-block;
-    padding: 0 .5em 0.2em;
     text-decoration: none;
     animation-name: expand-ul;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
     visibility: visible !important;
     /* New code here: */
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 
 @keyframes expand-ul {
