@@ -23,7 +23,11 @@
                         developing on a large-scale industrial application.
                     </p>
                     <!--Who am I?-->
-                    <h2 class="lets-work-together">Let's <div class="expand-underline"><a href="https://www.linkedin.com/in/lilymaxfield/" class="lets-work-together">work together!</a></div></h2>
+                    <div class="expand-anim">
+                        <h2 class="lets">Let's </h2>
+                        <a href="https://www.linkedin.com/in/lilymaxfield/" class="work-together">work together!</a>
+                    </div>
+                    
                 </div>
                 <div class="intro-banner-right">
                     <img class="img-float-right" src="assets/images/1728662272976.jpg" />

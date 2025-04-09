@@ -70,7 +70,7 @@
     margin-bottom: 5px;
 }
 
-.lets-work-together {
+.lets {
     color: black;
     font-family: "inter";
     display: inline-block;
@@ -83,7 +83,20 @@
     white-space: pre;
 }
 
-.expand-underline {
+.work-together {
+    color: black;
+    font-family: "inter";
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 7em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    white-space: pre;
+}
+
+.expand-anim {
     color: black;
     font-style: italic;
     text-decoration: underline;
@@ -91,7 +104,7 @@
     transition: 0.5s;
 }
 
-.expand-underline:hover {
-    color: black;
-    background-position: bottom;
-}
+    .expand-anim:hover {
+        color: black;
+        background-position: bottom;
+    }
