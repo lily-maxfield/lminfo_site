@@ -12,17 +12,10 @@
             <h1 class="lminfo-h1">Contact</h1>
 
             <div class="lminfo-callout-container">
-                <div class="lminfo-callout-linked">
-                    <!--LinkedIn-->
-                    <div>
-                        <div class="lminfo-callout-linked-img">
-                            <a class="social-link"><img src="/assets/images/linkedin-40x40-blue.png"></a>
-                        </div>
-                        <div class="lminfo-callout-linked-title">
-                            <h2 class="lminfo-h2">LinkedIn</h2>
-                        </div>
-                    </div>
-                </div>
+                <a class="lminfo-callout-linked">
+                LinkedIn
+                <img src="/assets/images/linkedin-40x40-blue.png">
+                </a>
                 <div class="spacer-div-single"></div>
                 <div class="lminfo-callout-linked">
                     <!--Mail-->

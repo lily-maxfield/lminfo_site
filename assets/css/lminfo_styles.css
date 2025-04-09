@@ -177,6 +177,7 @@
 
 .lminfo-callout-linked-title {
     float: right;
+    margin-right: 0.5em;
 }
 
 .lminfo-callout-linked-title p {
