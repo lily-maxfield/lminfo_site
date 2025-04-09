@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -12,7 +12,7 @@
             <!--Intro section-->
             <div class="intro-banner">
                 <div class="intro-banner-left">
-                    <h1 class="lminfo-big-header">Hi, I'm Lily!</h1>
+                    <h1 class="lminfo-big-header">Hi, I'm Lily! 👋</h1>
                     <p class="lminfo-p"><i>Software Engineer and Certified LabVIEW Developer</i></p>
                     <!--Who am I?-->
                     <h2 class="lminfo-h2">Who am I?</h2>
@@ -23,10 +23,7 @@
                         developing on a large-scale industrial application.
                     </p>
                     <!--Who am I?-->
-                    <h2 class="lminfo-h2">Let's 
-                    <h2 class="expand-underline">work together!
-                    </h2>
-                    </h2>
+                    <h2 class="lminfo-h2">Let's <h2 class="expand-underline">work together!</h2></h2>
                 </div>
                 <div class="intro-banner-right">
                     <img class="img-float-right" src="assets/images/350_placeholder.png" />
