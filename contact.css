@@ -4,20 +4,25 @@
     border-radius: 10px;
     border: 3px solid #002349;
     margin: auto;
-    display: inline-block;
+    display: flex;
     padding: 10px;
+    align-items: center;
     background-color: #002349;
+    transition: 0.5s;
+    color: white;
+    margin-bottom: 20px;
 }
 
 .contact-link-image {
-    float:left;
+    float: left;
+    margin-right: 15px;
 }
 
 .contact-link-name {
-    color: white;
+    color: inherit;
     font-size: 1.5em;
     font-family: "inter";
-    float:left;
+    float: left;
 }
 
 .contact-link:hover {
