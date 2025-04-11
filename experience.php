@@ -35,7 +35,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="spacer-div-single"></div>
                 <div class="lminfo-callout">
                     <!--Austin Consultants-->
                     <div>
@@ -54,7 +53,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="spacer-div-single"></div>
                 <div class="lminfo-callout">
                     <!--Wath Group-->
                     <div>
@@ -73,7 +71,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="spacer-div-single"></div>
                 <div class="lminfo-callout">
                     <!--TBG Solutions-->
                     <div>
@@ -92,7 +89,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="spacer-div-single"></div>
                 <div class="lminfo-callout">
                     <!--Sheffield Hallam University-->
                     <div>
@@ -110,7 +106,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="spacer-div-single"></div>
             </div>
         </div>
     </div>

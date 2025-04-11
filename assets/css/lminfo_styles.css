@@ -118,6 +118,7 @@
     border-radius: 10px;
     border: 3px solid #002349;
     margin: auto;
+    margin-top: 1em;
 }
 
 .lminfo-callout-title {
@@ -130,7 +131,7 @@
     font-family: "inter";
     display: block;
     font-size: 1.5em;
-    margin: 0.83em;
+    margin: 20px;
     font-weight: bold;
 }
 
@@ -155,7 +156,7 @@
 .lminfo-callout-details p {
     color: black;
     font-family: "inter";
-    margin: 0px;
+    margin: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
